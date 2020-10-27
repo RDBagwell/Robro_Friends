@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './containers/App';
 import './index.css';
-import Card from './components/Card/Card'
 import 'tachyons';
+
+
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card id={1} roboName ={'Robo Pal01'} roboEmail={'email@email.com'}/>
-    <Card id={2} roboName ={'Robo Pal01'} roboEmail={'email@email.com'}/>
-    <Card id={3} roboName ={'Robo Pal01'} roboEmail={'email@email.com'}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
